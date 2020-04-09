@@ -24,7 +24,6 @@ describe('fetchBreedDescription', () => {
 
       // compare returned description
       assert.equal(err, expectedErrMsg);
-
       done();
     });
   });
